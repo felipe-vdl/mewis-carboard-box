@@ -3,8 +3,5 @@
 @tailwind utilities;
 
 #project-list {
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(155px, 100%), 155px));
-  gap: 1.5rem;
-  justify-content: center;
 }
