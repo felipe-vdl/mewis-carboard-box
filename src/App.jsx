@@ -28,12 +28,12 @@ export default function App() {
           <h2 className="text-center text-2xl font-bold">Projects</h2>
           <div
             id="project-list"
-            className="bg-white/10 p-6 rounded shadow shadow-black/10 justify-between items-start content-start gap-6 grid flex-1"
+            className="bg-white/10 p-6 rounded shadow shadow-black/10 justify-start items-start content-start gap-6 grid flex-1"
           >
             <a
               title="URL shortener"
               href="/u"
-              className="bg-blue-400 text-white shadow shadow-black/10 gap-2 flex flex-col items-center p-4 rounded-xl"
+              className="bg-blue-400 hover:bg-blue-400/75 transition-all text-white shadow shadow-blue-700/30 gap-2 flex flex-col items-center p-4 rounded-xl"
             >
               <img
                 src="./url-shortener.png"
@@ -41,6 +41,14 @@ export default function App() {
                 alt="URL shortener icon"
               />
               <span className="font-semibold">URL Shortener</span>
+            </a>
+            <a
+              title="Símbolos"
+              href="https://s.mewi.xyz"
+              className="bg-neutral-800 hover:bg-neutral-800/80 transition-all text-white shadow shadow-black/30 gap-2 flex flex-col items-center p-4 rounded-xl"
+            >
+              <img src="./simbolos.png" width={125} alt="URL shortener icon" />
+              <span className="font-semibold">Símbolos</span>
             </a>
           </div>
         </section>
